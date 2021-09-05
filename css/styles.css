@@ -1,0 +1,314 @@
+.title1 {
+  background-color: #B8DFD8;
+  margin-bottom: 0.5rem;
+}
+
+.navbar {
+  margin-left: 5px;
+  z-index: 2;
+  border-radius: 20px;
+  overflow: hidden;
+  position: fixed;
+  top: 0.5rem;
+  width: 99%;
+  background-color: #00A19D
+}
+
+.barra-rola {
+  height: 80px;
+}
+
+#navbarTogglerDemo01 {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+.sanduiche {
+  position: relative;
+  background-color: #B8DFD8;
+  height: 100%;
+  margin-right: 0.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+.escolar-img {
+  text-align: center;
+}
+
+.imagem-escolar {
+  margin-top: 3rem;
+  border-radius: 10%;
+  transform: rotate(358deg);
+  width: 80%;
+}
+
+.contato1 {
+  margin-bottom: 0.5rem;
+}
+
+.nav-item {
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.logo-urbs {
+  width: 100%;
+}
+
+.urbs-titulo {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.anos-20 {
+  text-align: center;
+}
+
+.regiao {
+  text-align: center;
+}
+
+.linha-experiencia {
+  margin: 5% 0 10% 0;
+}
+
+.imagem-estrela {
+  background-color: white;
+  margin-left: 12%;
+  width: 75%;
+}
+
+.imagem-curitiba {
+  margin-bottom: 15%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#testimonials {
+  position: relative;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.carousel-inner {
+  position: relative;
+  height: 250px;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.slide-ailton {
+  border-radius: 15px;
+  background-color: #9DDAC6;
+}
+
+.slide-renato {
+  border-radius: 15px;
+  background-color: #E5D549;
+}
+
+.slide-larissa {
+  border-radius: 15px;
+  background-color: #FC5404;
+}
+
+.testi-logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+}
+
+.butt-caro {
+  border-radius: 10%;
+  background-color: black;
+}
+
+.parent {
+  position: relative;
+  height: 100%;
+}
+
+.carou-title {
+  padding: 1rem 0.5rem;
+  color: black;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.preco-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.coluna-preco {
+  margin-bottom: 1rem;
+}
+
+.preco-title0 {
+  position: relative;
+  margin: 0;
+}
+
+.valor-card {
+  font-size: 3rem;
+}
+
+.card {
+  background-color: #B5EAEA;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .escolar-titulo {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .whats-logo {
+    margin-bottom: 2rem;
+    height: 150px;
+    width: 150px;
+  }
+
+  .email-logo {
+    margin-bottom: 2rem;
+    height: 150px;
+    width: 150px;
+  }
+
+  .telefone-logo {
+    margin-bottom: 2rem;
+    height: 150px;
+    width: 150px;
+  }
+
+  .carta1:hover {
+    position: relative;
+    transform: scale(1.2);
+    z-index: 1;
+    background-color: #FFB740;
+  }
+
+  .carta2:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    background-color: #FFB740;
+  }
+
+  .carta3:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    background-color: #FFB740;
+  }
+
+  .contato-title1 {
+    padding: 0;
+  }
+
+  .cartas-preco {
+    padding-bottom: 0;
+  }
+
+  .contato-cartas {
+    padding-top: 40px;
+  }
+
+  .botaop {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .escolar-titulo {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .linha-experiencia {
+    margin: 4rem 0 6rem 0;
+  }
+
+  .navbar {
+    width: 97%;
+  }
+
+  .coluna-email1 {
+    padding: 50px 0;
+  }
+
+  .whats-logo {
+    margin-bottom: 15px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .email-logo {
+    margin-bottom: 15px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .telefone-logo {
+    margin-bottom: 15px;
+    height: 150px;
+    width: 200px;
+  }
+}
+
+.contato-title {
+  text-align: center;
+  padding: 0;
+}
+
+.whats-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.email-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.telefone-logo {
+  height: 150px;
+  width: 150px;
+}
+
+#contato {
+  text-align: center;
+}
+
+.contato-contai {
+  padding: 0;
+  height: 500px;
+}
