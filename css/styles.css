@@ -187,6 +187,11 @@ p {
 }
 
 @media (min-width: 900px) {
+
+  .featurbs{
+    padding-top: 0;
+  }
+
   .escolar-titulo {
     padding-top: 30px;
     text-align: center;
